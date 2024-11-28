@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+.header {
+    position: relative;
+    height: 150px; /* Added height to prevent overlap */
+}
+
+h1 {
+    font-size: 50px; /* Adjusted heading size */
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 150px;
+    font-weight: 900; 
+}
+
+.image-placeholder {
+    width: 160px;
+    height: 160px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-bottom: 0px;
+}
+
+.section {
+    margin-top: 30px; /* Space after the header */
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Border for each section */
+    padding: 15px; /* Padding inside each section */
+    border-radius: 5px; /* Rounded corners for sections */
+    background-color: #fafafa; /* Light background for sections */
+}
+
+.section h2 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px; /* Adjusted section heading size */
+}
+
+.row {
+    display: flex;
+    align-items: center; /* Aligns items vertically center */
+    margin-bottom: 5px; /* Reduced space between rows */
+}
+
+label {
+    width: 200px; /* Fixed width for labels */
+    margin-right: 5px; /* Space between label and input */
+    font-size: 12px; /* Smaller font size for labels */
+}
+
+input {
+    flex: 1; /* Allows the input field to take up remaining space */
+    padding: 2px 0; /* Adjust padding for top and bottom only */
+    border: none; /* Remove all borders */
+    border-bottom: 1px solid #000; /* Add a bottom border to create a line effect */
+    outline: none; /* Remove outline on focus */
+    font-size: 12px; /* Smaller font size for input fields */
+}
+
+/* Styling for the specific fields to be one line each */
+.one-line {
+    flex: 1; /* Take up remaining space on the line */
+}
+
+input:focus {
+    border-bottom: 1px solid #007BFF; /* Change bottom border color on focus */
+}
+
+.disclaimer {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.signature {
+    text-align: right;
+}
+
+.additional-info {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out the two sections */
+    margin-top: 30px; /* Space above the additional info section */
+}
+
+.left-info {
+    width: 60%; /* Width for the left section */
+}
+
+.right-info {
+    width: 35%; /* Width for the right section */
+    padding-left: 20px; /* Space between the two sections */
+}
+
+.right-info h2 {
+    margin-bottom: 10px; /* Margin for the section heading */
+}
